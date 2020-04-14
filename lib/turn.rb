@@ -25,3 +25,9 @@ def valid_move?(board, index)
     false
   end
 end
+
+def move(board, index, token = "X")
+  if valid_move? == true
+    board[index] = "X"
+  end
+end
