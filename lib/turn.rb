@@ -28,6 +28,6 @@ end
 
 def move(board, index, token = "X")
   if valid_move? == true
-    board[index] = "X"
+    board[index] = token
   end
 end
